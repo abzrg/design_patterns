@@ -1,4 +1,4 @@
-AllowShortFunctionsOnASingleLine: Empty
+AllowShortFunctionsOnASingleLine: true
 BraceWrapping:
   AfterCaseLabel: true
   AfterControlStatement: true
@@ -11,7 +11,7 @@ BreakBeforeBraces: Custom
 ColumnLimit: 100
 IndentCaseLabels: true
 IndentWidth: 4
-SpaceAfterCStyleCast: true
+SpaceAfterCStyleCast: false
 TabWidth: 4
 AccessModifierOffset: -4
 
