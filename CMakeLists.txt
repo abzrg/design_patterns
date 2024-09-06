@@ -13,3 +13,5 @@ if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE "RelWithDebInfo" CACHE STRING
         "Default build type: RelWithDebInfo" FORCE)
 endif()
+
+add_subdirectory(src)
